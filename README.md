@@ -7,7 +7,7 @@
 [![DOI](https://img.shields.io/badge/DOI-10.1371%2Fjournal.pone.0315407-blue)](https://doi.org/10.1371/journal.pone.0315407)
 [![Python](https://img.shields.io/badge/python-3.9%2B-3776AB)](#installation)
 [![License: MIT](https://img.shields.io/badge/code-MIT-green)](LICENSE)
-[![tests](https://github.com/marif561/NLP-Sentiment-Analysis-/actions/workflows/tests.yml/badge.svg)](https://github.com/marif561/NLP-Sentiment-Analysis-/actions/workflows/tests.yml)
+[![tests](https://github.com/marif561/NLP-Sentiment-Analysis/actions/workflows/tests.yml/badge.svg)](https://github.com/marif561/NLP-Sentiment-Analysis/actions/workflows/tests.yml)
 
 Code and results for **"Machine and deep learning algorithms for sentiment analysis during COVID-19: A vision to create fake news resistant society"**, *PLoS ONE* 19(12): e0315407, 2024 (open access).
 
@@ -82,8 +82,8 @@ Test-set scores reported in the paper (Tables 3a and 4a).
 ## Installation
 
 ```bash
-git clone https://github.com/marif561/NLP-Sentiment-Analysis-.git
-cd NLP-Sentiment-Analysis-
+git clone https://github.com/marif561/NLP-Sentiment-Analysis.git
+cd NLP-Sentiment-Analysis
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 pip install -e .
