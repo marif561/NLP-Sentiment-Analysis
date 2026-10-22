@@ -1,0 +1,24 @@
+# Classical ML (paper Section 3.4); 70/30 split
+test_size: 0.3
+tfidf: {}            # default TF-IDF over the stemmed, stop-word-free text
+
+svm:
+  kernel: rbf
+  C: 1.0
+lr:
+  C: 1.0
+  solver: lbfgs
+  max_iter: 100
+rf:
+  n_estimators: 100
+  criterion: gini
+  random_state: 42
+dt:
+  criterion: gini
+  max_depth: null
+  min_samples_leaf: 1
+  random_state: 42
+knn:
+  n_neighbors: 5
+  metric: euclidean
+nb: {}               # appears in the paper's figures; default MultinomialNB

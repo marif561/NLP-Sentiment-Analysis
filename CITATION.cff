@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "COVID-19 Fake News Detection with Machine and Deep Learning"
+repository-code: "https://github.com/marif561/NLP-Sentiment-Analysis-"
+license: MIT
+authors:
+  - family-names: Zamir
+    given-names: Muhammad Tayyab
+  - family-names: Ullah
+    given-names: Fida
+  - family-names: Tariq
+    given-names: Rasikh
+  - family-names: Bangyal
+    given-names: Waqas Haider
+  - family-names: Arif
+    given-names: Muhammad
+  - family-names: Gelbukh
+    given-names: Alexander
+keywords: [COVID-19, fake news detection, misinformation, deep learning, BiGRU, machine learning]
+preferred-citation:
+  type: article
+  title: "Machine and deep learning algorithms for sentiment analysis during COVID-19: A vision to create fake news resistant society"
+  journal: "PLoS ONE"
+  volume: 19
+  issue: 12
+  start: e0315407
+  year: 2024
+  doi: "10.1371/journal.pone.0315407"
+  authors:
+    - family-names: Zamir
+      given-names: Muhammad Tayyab
+    - family-names: Ullah
+      given-names: Fida
+    - family-names: Tariq
+      given-names: Rasikh
+    - family-names: Bangyal
+      given-names: Waqas Haider
+    - family-names: Arif
+      given-names: Muhammad
+    - family-names: Gelbukh
+      given-names: Alexander

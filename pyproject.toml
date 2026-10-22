@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "covidfake"
+version = "1.0.0"
+description = "COVID-19 fake news detection with machine and deep learning (PLoS ONE 2024)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+  { name = "Muhammad Tayyab Zamir" }, { name = "Fida Ullah" }, { name = "Rasikh Tariq" },
+  { name = "Waqas Haider Bangyal" }, { name = "Muhammad Arif" }, { name = "Alexander Gelbukh" },
+]
+dependencies = ["pandas", "numpy", "scikit-learn>=1.2", "pyyaml", "nltk"]
+
+[project.optional-dependencies]
+dl = ["torch>=2.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

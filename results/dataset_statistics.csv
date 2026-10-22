@@ -1,0 +1,6 @@
+statistic,value
+total_posts,6420
+real,3360
+fake,3060
+train_split,0.70
+test_split,0.30

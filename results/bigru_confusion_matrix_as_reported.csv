@@ -1,0 +1,5 @@
+cell,count,note
+true_negative,555,as printed in the paper text
+true_positive,580,as printed in the paper text
+false_negative,81,as printed in the paper text
+false_positive,68,"as printed; together these imply accuracy ~0.88, while the headline table reports 0.91"

@@ -1,0 +1,28 @@
+# Deep-learning models (paper Section 3.4); 70/30 split
+test_size: 0.3
+
+common:
+  embedding_dim: 50
+  vocab_size: 20000     # not given in the paper
+  max_len: 100          # not given in the paper; covers almost all posts
+  learning_rate: 1.0e-3 # Adam default (the paper uses Adam without a stated rate)
+  epochs: 10
+  validation_split: 0.1
+  dropout: 0.2
+
+cnn:
+  batch_size: 32
+  filters: 128
+  kernel_size: 3
+  pool_size: 3
+  dense: 256
+
+lstm:
+  batch_size: 32
+  units: 100
+  dense: 256
+
+bigru:
+  batch_size: 20
+  units: 32             # GRU units per direction; the paper also lists "LSTM units: 64" for this model
+  dense: 128

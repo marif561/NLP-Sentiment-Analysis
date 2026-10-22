@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 260" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#57606a"/>
+    </marker>
+    <style>
+      .t{font-size:15px;font-weight:600;fill:#1f2328;text-anchor:middle}
+      .s{font-size:12px;fill:#57606a;text-anchor:middle}
+      .ln{stroke:#57606a;stroke-width:1.6;fill:none;marker-end:url(#a)}
+    </style>
+  </defs>
+  <rect width="960" height="260" fill="#ffffff"/>
+  <text x="480" y="30" font-size="18" font-weight="700" fill="#1f2328" text-anchor="middle">COVID-19 fake news detection · real vs. fake</text>
+
+  <rect x="10" y="90" width="160" height="80" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+  <text class="t" x="90" y="122">COVID-19 posts</text>
+  <text class="s" x="90" y="144">6,420 · 70/30 split</text>
+
+  <rect x="200" y="90" width="170" height="80" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+  <text class="t" x="285" y="118">Pre-processing</text>
+  <text class="s" x="285" y="138">URLs · punctuation</text>
+  <text class="s" x="285" y="154">stop words · stemming</text>
+
+  <rect x="410" y="55" width="230" height="60" rx="8" fill="#fff8c5" stroke="#d4a72c" stroke-width="1.5"/>
+  <text class="t" x="525" y="80">TF-IDF + classical ML</text>
+  <text class="s" x="525" y="100">SVM · LR · RF · DT · KNN</text>
+  <rect x="410" y="145" width="230" height="60" rx="8" fill="#ddf4ff" stroke="#54aeff" stroke-width="1.5"/>
+  <text class="t" x="525" y="170">Embeddings + deep learning</text>
+  <text class="s" x="525" y="190">CNN-1D · LSTM · BiGRU</text>
+
+  <rect x="690" y="90" width="250" height="80" rx="10" fill="#dafbe1" stroke="#4ac26b" stroke-width="1.5"/>
+  <text class="t" x="815" y="120">Best: BiGRU</text>
+  <text class="s" x="815" y="142">F1 0.92 · accuracy 0.91</text>
+  <text class="s" x="815" y="158">recall 0.93 on fake news</text>
+
+  <path class="ln" d="M170,130 H197"/>
+  <path class="ln" d="M370,130 C390,130 390,85 407,85"/>
+  <path class="ln" d="M370,130 C390,130 390,175 407,175"/>
+  <path class="ln" d="M640,85 C665,85 665,130 687,130"/>
+  <path class="ln" d="M640,175 C665,175 665,130 687,130"/>
+</svg>
